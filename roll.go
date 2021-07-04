@@ -13,6 +13,5 @@ func Seed(n int64) {
 	if n == 0 {
 		rand.Seed(time.Now().UnixNano())
 	}
-
 	rand.Seed(n)
 }
